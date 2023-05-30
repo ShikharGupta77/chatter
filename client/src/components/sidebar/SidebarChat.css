@@ -1,0 +1,15 @@
+.sidebarChat {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-top: 1px solid lightgray;
+}
+
+.sidebarChat:last-child {
+    border-bottom: 1px solid lightgray;
+}
+
+.sidebarChat:hover {
+    background-color: rgb(234, 234, 234);
+    cursor: pointer;
+}
